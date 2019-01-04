@@ -1,0 +1,31 @@
+
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+<title>AntiSquad</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="main.css?v=2">
+<meta name="description" content="Spooky.Site, website offering multiple spooky related services.">
+</head>
+<body>
+  <section>
+	<div class="glitch">
+		<div class="text">
+			<span>Fuck skids.<br>We will be back.<br></span>
+			<br>
+		</div> 
+	</div>
+</section>
+
+<script>
+$(function(){
+	for(i=0;i<4;i++){
+		$('.glitch .text span').eq(0).clone().prependTo('.glitch .text');
+	}
+});
+</script>
+
+</body>
+</html>
