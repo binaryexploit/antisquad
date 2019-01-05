@@ -17,16 +17,16 @@
 			<body background="gif.gif">
 			<span>Fuck skids.<br>xtc $ distro.<br></span>
 			<style>
-
 				
-			<div class="background-wrap">
-				<video id="video-bg-elem" preload="auto" autoplay="true" loop="loop"
-					<source src"video.mp4" type="video/mp4">
-				</video>			
-			</div>
-			
-			
-			<div class="content"</div>
+			<video muted="" playsinline="" autoplay="" loop="" id="bgVideo">
+            <source src="video.mp4" type="video/mp4">
+                <script>
+                    
+                    var video = document.currentScript.parentElement;
+                    video.volume = 0.666;
+                    <iframe src="song.mp3" allow="autoplay" id="audio" style="display:none"></iframe> 
+                    </script>
+                </video>	
 <script>
 $(function(){
 	for(i=0;i<4;i++){
