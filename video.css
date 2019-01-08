@@ -1,13 +1,19 @@
-.videoContainer 
-{
-    position:absolute;
-    height:100%;
-    width:100%;
-    overflow: hidden;
 }
-
-.videoContainer video 
-{
-    min-width: 100%;
-    min-height: 100%;
+#bgVideo {
+    position:fixed;
+    min-width:135%;
+    min-height:110%;
+    width:auto;
+    height:auto;
+    z-index:-100;
+    transform:translateX(-50%) translateY(-50%);
+    background-size:cover;
+    overflow:hidden;
+    -webkit-filter:blur(15px);
+    -moz-filter:blur(15px);
+    -o-filter:blur(15px);
+    -ms-filter:blur(15px);
+    filter:blur(15px);
+    background:rgb(0, 0, 0);
+    filter:brightness(62.5%);
 }
