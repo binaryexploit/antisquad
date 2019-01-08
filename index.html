@@ -49,12 +49,17 @@
 			</div>
 			</center>
 		
-		<div class="background-wrap">
-		
-			<video id="background-vid" preload="auto" autoplay"true" loop="loop" muted="muted">
-				<source src="video.mp4" type="vidoe/mp4">
-			</video>   
-		</div>
+<body>
+        <video muted="" playsinline="" autoplay="" loop="" id="bgVideo">
+            <source src="video.mp4" type="video/mp4">
+                <script>
+                    
+                    var video = document.currentScript.parentElement;
+                    video.volume = 0.666;
+                    
+                    </script>
+                </video>
+</body>
 				
 		
 		</div>
