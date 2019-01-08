@@ -17,3 +17,10 @@
     background:rgb(0, 0, 0);
     filter:brightness(62.5%);
 }
+
+}
+
+#body,video{
+    top:50%;
+    left:50%
+}
