@@ -90,3 +90,4 @@ a:hover {
 a { color: inherit; } 
 
  
+a:hover { cursor:url('middle-finger.cur'), pointer; }
