@@ -90,4 +90,4 @@ a:hover {
 a { color: inherit; } 
 
  
-a:hover { cursor:url('xp-middle-finger.cur'), pointer; }
+* { cursor:url('xp-middle-finger.cur'), default; }
