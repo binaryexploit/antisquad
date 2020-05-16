@@ -1,39 +1,98 @@
+<!--
+
+░░░░░░░░░▌▒█░░░░░░░░░░░▄▀▒▌
+░░░░░░░░▌▒▒█░░░░░░░░▄▀▒▒▒▐
+░░░░░░░▐▄▀▒▒▀▀▀▀▄▄▄▀▒▒▒▒▒▐  heck off men!!1
+░░░░▄▄▀▒░▒▒▒▒▒▒▒▒▒█▒▒▄█▒▐   nerd!! wut u doing hera??
+░░▄▀▒▒▒░░░▒▒▒░░░▒▒▒▀██▀▒▌
+░░▐▒▒▒▄▄▒▒▒▒░░░▒▒▒▒▒▒▒▀▄▒▒▌
+░░▌░░▌█▀▒▒▒▒▒▄▀█▄▒▒▒▒▒▒▒█▒▐
+░▐░░░▒▒▒▒▒▒▒▒▌██▀▒▒░░░▒▒▒▀▄▌
+░▌░▒▄██▄▒▒▒▒▒▒▒▒▒░░░░░░▒▒▒▒▌
+▀▒▀▐▄█▄█▌▄░▀▒▒░░░░░░░░░░▒▒▒
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+ 
 <head>
-<title>sim</title>
-<style>
-            body {
-                background: black;
-                overflow-y: hidden;
-                overflow-x: hidden;
-            }
-    
-            pre {
-                transform: translateX(-50%) translateY(-50%);
-                position: fixed;
-                top: 50%;
-                left: 50%;
-                text-align: center;
-                color: white;
-            }
-            a {
-                transition: text-shadow .9s, letter-spacing .9s;
-                text-decoration: none;
-                color: white;
-            }
-            a:hover {
-                text-shadow: 0 0 6px #FFFFFF;
-                letter-spacing: 1px;
-            }
-            h2 {
-                color: red;
-            }
-        </style>
-<iframe src="song.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
-</head>
-<body>
-<pre><span style="font-size: 15px; font-family: 'Courier New', Courier, monospace;"><i>    </i></span>
-    [<span style="color: #FF0000 ;"><b>cyberghetto</b></span>]  <a target="_blank" rel="noopener noreferrer" title="cyberghetto"></a>
-    
-                <span style="color: #ffffff ;"><b> <marquee>     Castr6 (Y.ACG) - Untold Stories | @PacmanTV     </marquee></b></span> <a target="_blank" rel="noopener noreferrer"</a>
-        </pre>
-</body>
+ 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	 <title>lo$er </title>
+	 <meta charset="utf-8" />
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	 <meta name="title" content="lo$er" />
+	 <meta name="description" content="professional lo$er gang" />
+
+	 <meta property="og:title" content=" " />
+	 <meta property="og:description" content="professional lo$er gang" />
+
+	 <script src="js/title.js"></script>
+	 <script src="js/main.js"></script>
+
+	 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	 <link rel="stylesheet" href="css/bootstrap.min.css" />
+	 <link rel="stylesheet" href="css/animate.css" />
+	 <link rel="stylesheet" href="css/style.css" />
+ </head>
+			</div>
+		</div>
+	</div>
+	 <div id="container">
+		 <main>
+			 <div class="animated fadeInLeft">
+				 <h1><shadow class="name"><a href="https://discord.me/stolen" target="_blank">stolen</shadow></a></h1>
+				 <h2><shadow> input sample text here</shadow></h2>
+			 </div>
+				 <div class="animated fadeIn2"><center><span class="sub_text2" id="clock"></span></center></div>
+			 </ul>
+			 <div class="animated fadeInUp">
+				 <footer>
+					 <h1><shadow>stem stuffs</shadow><br /></h1>
+					 <h2><shadow><marquee width="75%"><a href="http://steamcommunity.com/profiles/76561198078574412" target="_blank">steam </a> -  <a href="http://steamcommunity.com/groups/beachside7" target="_blank">group </a></marquee></shadow></h2>
+				 </footer>
+				 <div class="mobile-hide">
+					 <h3><shadow>Song: I don't know</shadow></h3>
+				 </div>
+			 </div>
+			 <audio autoplay="" loop="" id="song" onloadeddata="setVolume()">
+				 <source src="files/music/rude.mp3" type="audio/mpeg">
+			 </source></audio>
+		 </main>
+	 </div>
+ </body>
+ 
+ <script>
+    update_clock();
+
+    function update_clock() {
+        var currentTime = new Date(),
+            hours = currentTime.getHours(),
+            minutes = currentTime.getMinutes();
+        if (hours > 12) {
+            hours = hours - "12" ;
+	    }
+		
+		if (hours < 12) {
+		    hours = hours;
+			
+	    }
+		
+        if (minutes < 10) {
+            minutes = "0" + minutes;
+        }
+
+        var clock_element = document.getElementById("clock");
+
+        clock_element.innerHTML = hours + " : " + minutes;
+    }
+    setInterval(update_clock, 1000);
+
+</script>
+
+</html>
+
+ 
