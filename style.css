@@ -1,0 +1,121 @@
+body {
+	background-color:#000000;
+	text-align:center;
+	font-family:"Courier New";
+	color:#ffffff;
+}
+
+pre {
+	background:none;
+	border:none;
+	padding-top:20%;
+	color:inherit;
+	text-align:center;
+    text-decoration:none;
+	font-size:12px;
+	font-family:inherit;
+}
+
+button {
+	background:none;
+	color:inherit;
+	font-family:inherit;
+	font-size:14px;
+	padding:0;
+	text-align:inherit;
+    text-decoration:inherit;
+	border:none;
+}
+
+button:hover {
+    color:#FFFFFF;
+}
+
+video {
+    background-size:cover;
+    filter:blur(5px);
+    height:auto;
+	left:50%;
+    min-width:100%;
+    min-height:100%;
+    position:fixed;
+    top:50%;
+	transform:translateX(-50%) translateY(-50%);
+    width:auto;
+    z-index:-100;
+}
+
+<!--Button-->
+
+.home-button {
+	line-height: 46px;
+	outline:0;
+    padding: 0 32px;
+	opacity:0;
+    font-size: 15px;
+    background-color: #black;
+    color: #FFF;
+    display: inline-block;
+	text-decoration:none;
+    font-weight: 500;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    margin: 0 10px 0 0;
+	-webkit-transition: background 0.5s;
+    transition: background 0.5s;
+	
+	animation: fadein 2s forwards;
+	animation-delay: 0.5s;
+}
+
+.home-button {
+	line-height: 46px;
+	outline:0;
+    padding: 0 32px;
+	opacity:0;
+    font-size: 15px;
+    background-color:#111111;
+    color: #FFF;
+    display: inline-block;
+	text-decoration:none;
+    font-weight: 500;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    margin: 0 10px 0 0;
+	-webkit-transition: background 0.5s;
+    transition: background 0.5s;
+	
+	animation: fadein 2s forwards;
+	animation-delay: 0.5s;
+}
+
+.home-button:hover {
+	background-color:#4CAF50;
+	color:white;
+}
+
+@keyframes fadein-text {
+    from { 
+		text-shadow: 2px 2px 0px black;
+		opacity: 0; 
+	}
+    to { 
+		text-shadow: 2px 2px 20px black;
+		opacity: 1; 
+	}
+}
+
+@keyframes fadein {
+    from { 
+		-webkit-filter: drop-shadow(0px 0px 5px rgba(0,0,0,0));
+		opacity: 0; 
+	}
+    to { 
+		-webkit-filter: drop-shadow(0px 0px 20px rgba(0,0,0,0.8));
+		opacity: 1; 
+	}
+}
